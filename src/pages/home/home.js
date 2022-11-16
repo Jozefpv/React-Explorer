@@ -7,7 +7,7 @@ import {Link, useLocation} from "wouter"
 export default function Home(){
 
     const [keyword, setKeyword] = useState('')
-    const [path, pushLocation] = useLocation()
+    const [path, pushLocation] = useLocation('')
 
     const handleSubmit = e => {
         e.preventDefault()
