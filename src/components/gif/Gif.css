@@ -8,6 +8,8 @@
     margin: 16px;
     padding: 32px;
     width: 100%;
+    align-items: center;
+
 
 }
 
@@ -17,4 +19,5 @@
 
 .Gif img {
     object-fit: contain;
+    margin-top: 25px;
 }
